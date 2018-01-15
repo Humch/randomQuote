@@ -1,8 +1,35 @@
+
+body {
+  background-color: #238CFF !important;
+}
+
 div.mainRow {
-  height: 100vh;
+  height: 90vh;
 }
 
 div.content {
-    border: 1px solid red;
     padding: 15px;
+    background-color: #12467F;
+}
+
+p.margin {
+  margin-bottom: 0px !important;
+}
+
+.text-white {
+  color: white;
+}
+
+.blue-color {
+  color: #207EE5;
+}
+
+a.footer-icon {
+  margin-left: .5em;
+  margin-right: .5em;
+  color: white !important;
+}
+
+div.footerRow {
+  height: 10vh;
 }

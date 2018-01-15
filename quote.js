@@ -1,8 +1,13 @@
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 function displayQuote(data) {
     $("#quote").empty();
     $("#author").empty();
     $("#quote").append(data.quote);
     $("#author").append(data.author);
+    document.getElementById("t-quote").href = "http://twitter.com/home?status=" + data.quote + " - " + data.author;
 }
 
 function updateQuote () {

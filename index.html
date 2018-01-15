@@ -19,10 +19,19 @@
     
     <div class="container">
         <div class="mainRow row align-items-center justify-content-center">
-            <div class="content redBorder col-6">
-                <p id="quote"></p>
-                <p class="text-right">- <span id="author"></span></p>
-                <p class="text-center"><button type="button" class="btn btn-primary" onclick="updateQuote()">Click here</button></p>
+            <div class="content redBorder col-6 rounded">
+                <p class="margin  text-white"><i class="blue-color fas fa-angle-double-left align-top"></i> <span id="quote" ></span> <i class="blue-color fas fa-angle-double-right align-bottom"></i></p>
+                <p class="text-right text-white">- <span id="author"></span></p>
+                <p class="text-center"><button type="button" class="btn btn-primary" onclick="updateQuote()">Load a new quote</button></p>
+                <p><a id="t-quote" class="btn btn-primary" href="" role="button" target="_blank" data-toggle="tooltip" data-placement="top" title="Tweet this"><i class="fab fa-twitter"></i></a></p>
+            </div>
+        </div>
+        <div class="footerRow row align-items-center justify-content-center">
+            <div class="col-6">
+                <p class="text-center text-white">Fabien Schlegel
+                    <a class="button footer-icon" href="https://twitter.com/fabienschlegel"><i class="fab fa-twitter-square"></i></a>
+                    <a class="button footer-icon" href="www.linkedin.com/in/fabien-schlegel"><i class="fab fa-linkedin"></i></a>
+                    <a class="button footer-icon" href="https://github.com/Humch"><i class="fab fa-github-square"></i></a></p>
             </div>
         </div>
     </div>
